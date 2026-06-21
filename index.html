@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vynch Miranda — Portfolio, navigated by Luci</title>
+<meta name="description" content="Vynch Miranda — BS Information Systems student. Explore projects, certificates, and capabilities with Luci, a local AI-inspired portfolio assistant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">VYNCH<span class="brand-dot">.</span></a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="#about" data-nav="about">About</a>
+      <a href="#academic" data-nav="academic">Academic</a>
+      <a href="#capabilities" data-nav="capabilities">Capabilities</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+      <a href="#certificates" data-nav="certificates">Certificates</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">BS Information Systems · DNSC</p>
+        <h1>Vynch Miranda builds systems,<br> not just screens.</h1>
+        <p class="hero-lede">Halfway through a four-year path through information systems — working at the
+        intersection of <strong>AI tools</strong>, <strong>prompt engineering</strong>, <strong>system development</strong>,
+        and <strong>digital design</strong>. Expected graduation: May–June 2028.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="askLuciBtn">Ask Luci to guide you</button>
+          <a class="btn btn-ghost" href="#projects">See the flagship project</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-hidden="true">
+        <div class="hero-panel-head">
+          <span class="dot dot-warn"></span><span class="dot dot-mid"></span><span class="dot dot-ok"></span>
+          <span class="hero-panel-title">luci.assistant</span>
+        </div>
+        <div class="hero-panel-body">
+          <p><span class="prompt-glyph">&gt;</span> initializing portfolio context<span class="cursor-blink">_</span></p>
+          <p class="hero-panel-line dim">// knowledgeBase loaded</p>
+          <p class="hero-panel-line dim">// intentEngine ready</p>
+          <p class="hero-panel-line dim">// no external API — fully local</p>
+          <p class="hero-panel-line accent">Try: "What has Vynch built?"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <p class="section-label">01 / About</p>
+    <h2>A systems mindset, applied early.</h2>
+    <div class="about-grid">
+      <p class="about-text">Vynch Miranda is a Bachelor of Science in Information Systems student at
+      <strong>Davao del Norte State College (DNSC)</strong>, currently about halfway through the program,
+      with an expected graduation between <strong>May and June 2028</strong>. His work centers on understanding
+      how organizations actually run — then designing the tools that make them run better.</p>
+      <ul class="focus-list" aria-label="Focus areas, ranked by priority">
+        <li><span class="focus-rank">01</span><span class="focus-name">AI Tools</span></li>
+        <li><span class="focus-rank">02</span><span class="focus-name">Prompt Engineering</span></li>
+        <li><span class="focus-rank">03</span><span class="focus-name">System Development</span></li>
+        <li><span class="focus-rank">04</span><span class="focus-name">Digital Design</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ ACADEMIC ============ -->
+  <section class="section section-alt" id="academic">
+    <p class="section-label">02 / Academic</p>
+    <h2>Currently in progress.</h2>
+    <div class="academic-cards">
+      <div class="info-card">
+        <span class="info-card-label">School</span>
+        <span class="info-card-value">Davao del Norte State College</span>
+      </div>
+      <div class="info-card">
+        <span class="info-card-label">Course</span>
+        <span class="info-card-value">BS Information Systems</span>
+      </div>
+      <div class="info-card">
+        <span class="info-card-label">Status</span>
+        <span class="info-card-value">~Halfway through a 4-year course</span>
+      </div>
+      <div class="info-card">
+        <span class="info-card-label">Expected Graduation</span>
+        <span class="info-card-value">May – June 2028</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES & TOOLS ============ -->
+  <section class="section" id="capabilities">
+    <p class="section-label">03 / Capabilities &amp; Tools</p>
+    <h2>What he works with.</h2>
+    <div class="capabilities-grid">
+      <div>
+        <h3 class="sub-heading">Capabilities</h3>
+        <ul class="chip-list">
+          <li>Prompt Engineering</li>
+          <li>AI Tool Utilization</li>
+          <li>System Development Fundamentals</li>
+          <li>Digital Design Fundamentals</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sub-heading">Tools</h3>
+        <ul class="chip-list chip-list-tools">
+          <li>ChatGPT</li>
+          <li>Claude</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+          <li>Figma</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <p class="section-label">04 / Flagship Project</p>
+    <h2>EverGreen Management System</h2>
+    <div class="project-card">
+      <p class="project-tag">System Analysis &amp; Design</p>
+      <p class="project-desc">A centralized management platform designed for <strong>EverGreen Legacy Corp</strong>,
+      a Philippine-based insurance and financial services company offering life, legacy, and preneed plans.
+      The system is built around three roles — <strong>Branch Managers</strong>, <strong>Cashiers</strong>, and the
+      <strong>General Manager</strong> — and replaces manual, paper-based processes with one platform.</p>
+      <div class="project-purpose">
+        <h4>What it manages</h4>
+        <ul class="purpose-list">
+          <li>Clients</li>
+          <li>Policies</li>
+          <li>Payments</li>
+          <li>Claims</li>
+        </ul>
+        <p class="project-outcome">Goal: improve transparency and operational efficiency across every branch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section class="section" id="certificates">
+    <p class="section-label">05 / Certificates</p>
+    <h2>Foundations, formalized.</h2>
+    <div class="cert-card">
+      <div class="cert-card-head">
+        <span class="cert-org">Cisco Networking Academy</span>
+        <span class="cert-name">CCNA: Introduction to Networks</span>
+      </div>
+      <ul class="cert-topics">
+        <li>Networking fundamentals</li>
+        <li>IP addressing</li>
+        <li>Routing</li>
+        <li>Switching</li>
+        <li>Network protocols</li>
+        <li>Basic network security</li>
+      </ul>
+      <p class="cert-purpose">Represents foundational networking knowledge and a commitment to professional growth.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt" id="contact">
+    <p class="section-label">06 / Contact</p>
+    <h2>Get in touch.</h2>
+    <div class="contact-grid">
+      <a class="contact-link" data-external="email" href="mailto:vynchmiranda@gmail.com">
+        <span class="contact-link-label">Email</span>
+        <span class="contact-link-value">vynchmiranda@gmail.com</span>
+      </a>
+      <a class="contact-link" data-external="github" href="https://github.com/xvynch" target="_blank" rel="noopener">
+        <span class="contact-link-label">GitHub</span>
+        <span class="contact-link-value">github.com/xvynch</span>
+      </a>
+      <a class="contact-link" data-external="facebook" href="https://www.facebook.com/xvynch#" target="_blank" rel="noopener">
+        <span class="contact-link-label">Facebook</span>
+        <span class="contact-link-value">facebook.com/xvynch</span>
+      </a>
+      <a class="contact-link" data-external="linkedin" href="https://www.linkedin.com/in/xvynch" target="_blank" rel="noopener">
+        <span class="contact-link-label">LinkedIn</span>
+        <span class="contact-link-value">linkedin.com/in/xvynch</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Built by Vynch Miranda · Navigated by Luci · No external AI service involved.</p>
+  </footer>
+
+</main>
+
+<!-- ============ EXTERNAL LINK CONFIRM MODAL ============ -->
+<div class="modal-overlay" id="linkModal" hidden>
+  <div class="modal" role="alertdialog" aria-modal="true" aria-labelledby="modalTitle">
+    <p id="modalTitle" class="modal-title">You are about to leave the portfolio.</p>
+    <p class="modal-sub" id="modalSub"></p>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" id="modalCancel">Go Back</button>
+      <button class="btn btn-primary" id="modalProceed">Proceed</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ LUCI ASSISTANT ============ -->
+<button class="luci-launcher" id="luciLauncher" aria-haspopup="dialog" aria-expanded="false" aria-controls="luciPanel">
+  <span class="luci-launcher-dot"></span>
+  <span>Ask Luci</span>
+</button>
+
+<section class="luci-panel" id="luciPanel" role="dialog" aria-label="Luci, portfolio assistant" aria-modal="false" hidden>
+  <header class="luci-head">
+    <div class="luci-head-id">
+      <span class="luci-avatar" aria-hidden="true">L</span>
+      <div>
+        <p class="luci-name">Luci</p>
+        <p class="luci-sub">AI Assistant — local, rule-based</p>
+      </div>
+    </div>
+    <button class="luci-close" id="luciClose" aria-label="Close Luci">&times;</button>
+  </header>
+
+  <div class="luci-tour-bar" id="tourBar" hidden>
+    <p id="tourBarLabel">Explore Mode • Step 1 of 8</p>
+    <div class="tour-progress"><div class="tour-progress-fill" id="tourProgressFill"></div></div>
+  </div>
+
+  <div class="luci-log" id="luciLog" aria-live="polite"></div>
+
+  <div class="luci-suggestions" id="luciSuggestions"></div>
+
+  <form class="luci-input-row" id="luciForm">
+    <label class="sr-only" for="luciInput">Message Luci</label>
+    <input type="text" id="luciInput" autocomplete="off" placeholder="Ask Luci about Vynch's work…">
+    <button type="submit" class="btn btn-primary btn-small">Send</button>
+  </form>
+</section>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
