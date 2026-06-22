@@ -57,10 +57,7 @@ const modalProceed = document.getElementById("modalProceed");
 let pendingExternalUrl = null;
 
 function requestExternalConfirm(label, url){
-  pendingExternalUrl = url;
-  modalSub.textContent = `You're heading to ${label}. Do you want to continue?`;
-  linkModal.hidden = false;
-  modalProceed.focus();
+  window.open(url, "_blank");
 }
 
 function closeModal(){
