@@ -80,11 +80,15 @@ document.addEventListener("keydown", (e) => {
 
 // Intercept clicks on real external links in the page body itself.
 document.querySelectorAll(".contact-link[data-external]").forEach(link => {
-  link.addEventListener("click", (e) => {
+  link.onclick = function(e) {
     e.preventDefault();
-    const label = link.querySelector(".contact-link-label").textContent;
-    requestExternalConfirm(label, link.getAttribute("href"));
-  });
+    e.stopPropagation();
+
+    const label = this.querySelector(".contact-link-label").textContent;
+    requestExternalConfirm(label, this.href);
+
+    return false;
+  };
 });
 
 /* ---------------------------------------------------------
